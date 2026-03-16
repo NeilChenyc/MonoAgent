@@ -1,0 +1,18 @@
+{
+  "default": "general",
+  "routes": [
+    {
+      "id": "general",
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "tags": ["general", "fast"],
+      "fallback": ["code"]
+    },
+    {
+      "id": "code",
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "tags": ["code"]
+    }
+  ]
+}

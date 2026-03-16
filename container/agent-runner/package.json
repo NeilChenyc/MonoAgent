@@ -1,0 +1,24 @@
+{
+  "name": "monoagent-agent-runner",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Container-side agent runner for MonoAgent",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@mariozechner/pi-agent-core": "^0.58.3",
+    "@mariozechner/pi-ai": "^0.58.3",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@sinclair/typebox": "^0.32.35",
+    "cron-parser": "^5.0.0",
+    "strip-ansi": "^7.1.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3"
+  }
+}
