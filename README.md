@@ -1,7 +1,4 @@
-
-<p align="center">
-  MonoAgent is a lightweight agent runtime with Docker sandboxing, layered memory, and multi-provider model routing.
-</p>
+MonoAgent is a lightweight agent runtime with Docker sandboxing, layered memory, and multi-provider model routing.
 
 ## What It Is
 

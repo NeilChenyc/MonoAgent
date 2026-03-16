@@ -21,9 +21,14 @@ groups/global/*
 # Secrets
 *.keys.json
 .env
+.env.*
+!.env.example
 
 # Temp files
 .tmp-*
+*.log
+coverage/
+.cache/
 
 # OS
 .DS_Store
@@ -36,3 +41,8 @@ groups/global/*
 .monoagent/
 
 agents-sdk-docs
+
+# Container runner build artifacts
+container/agent-runner/node_modules/
+container/agent-runner/dist/
+container/agent-runner/*.tsbuildinfo

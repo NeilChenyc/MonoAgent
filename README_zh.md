@@ -1,10 +1,4 @@
-<p align="center">
-  <img src="assets/monoagent-logo.png" alt="MonoAgent" width="360">
-</p>
-
-<p align="center">
-  MonoAgent 是一个轻量级 Agent 运行时，提供 Docker 沙箱、分层记忆与多模型路由。
-</p>
+MonoAgent 是一个轻量级 Agent 运行时，提供 Docker 沙箱、分层记忆与多模型路由。
 
 ## 简介
 
